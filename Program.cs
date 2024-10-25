@@ -1,3 +1,11 @@
-﻿using DesafioPOO.Models;
+using DesafioPOO.Models;
 
-// TODO: Realizar os testes com as classes Nokia e Iphone
+
+Nokia nokia = new();
+nokia.Ligar();
+nokia.Numero = "71983903918";
+nokia.ReceberLigacao();
+
+Iphone iphone = new("71983903918");
+iphone.Ligar();
+iphone.ReceberLigacao();
